@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Registrazione</h1>
+    <label for="name"> Nome:</label>
+    <input type="text" id="name" placeholder="Inserisci il tuo nome" />
+    <button class="btnGreen" onclick="salvaNome()">Salva</button>
+    <button class="btnRed" onclick="rimuoviNome()">Rimuovi</button>
+    <p>Nome salvato: <span id="nomeSalvato"></span></p>
+
+    <h1>Timer</h1>
+    <p>Tempo : <span id="tempoTrascorso">0</span> secondi</p>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
